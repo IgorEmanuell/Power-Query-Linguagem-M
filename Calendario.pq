@@ -22,3 +22,5 @@ let
     #"Dias Uteis Numerico" = Table.TransformColumnTypes(DiasUteis,{{"Dias Uteis com Domingos", Int64.Type}})
 in
     #"Dias Uteis Numerico"
+
+
